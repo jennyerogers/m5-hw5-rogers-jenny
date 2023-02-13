@@ -1,0 +1,112 @@
+img {
+    float: left;
+    padding-top: 5px;
+    margin: 0 auto;
+    margin-right: 30px;
+    margin bottom: 5px;
+    margin-left: 10px;
+    box-shadow: 10px 10px 5px rgb(208, 188, 245);
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+header, footer {
+    background-color: rgb(208, 188, 245);
+    padding: 20px;
+    margin-left: -45%;
+    margin-right: -45%;
+}
+footer > p {
+    margin-left: 8%;
+    margin-left: 35%;
+}
+main {
+    background-color: rgb(252, 250, 219);
+    max-width: 470px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    float: left;
+}
+header > nav {
+    float: right;
+    font-size: 20px;
+    margin-right: 22%;
+}
+header > a {
+    margin-left: 8%;
+    font-size: 0px;
+}
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background-image: url(./white-waves.webp);
+}
+nav > a {
+    font-size: 25px;
+    font font-family: sans-serif;
+    color: rgb(81, 70, 102);
+    margin-left: 
+}
+nav > :first-child {
+    border-right: solid black;
+    padding-right: 10px;
+}
+nav > :last-child {
+    border-left: solid black;
+    padding-left: 10px;
+}
+article {
+    float: left;  
+    max-width: 700px;
+}
+aside {
+    float: right;
+    text-align: center;
+    background-color: rgb(252, 250, 219);
+    max-width: 200x;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+h1 {
+    padding: 10px;
+    font-size: 40px;
+    color: rgb(81, 70, 102);
+    border-bottom: solid black;
+    margin-bottom: 5px;
+}
+main p {
+    line-height: 160%;
+}
+main > aside {
+    float: right;
+    background-color: rgb(252, 250, 219);
+}
+.connect {
+    border-bottom: solid black;
+    margin-bottom: 5px;
+}
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+footer {
+    content: "";
+    clear: both;
+    display: block;
+}
+.links {
+    margin-left: 10px;
+}
+section.Connect {
+    text-align: center;
+}
